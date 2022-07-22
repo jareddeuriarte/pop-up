@@ -1,22 +1,48 @@
 body{
     height: 100vh;
+    background-color: #FCE3C4;
 }
 
 
 .hero{
-    background-color: #FF871F;
-    max-height: 49%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    background-color: #FF871F;
+    height: 17rem;
+    width: 100%;
+}
+
+
+
+
+.logo-container{
+    position: relative;
+    top: -290px;
+    z-index: 20;
 
 }
 
 .logo{
     height: 27rem;
-    position: relative;
-    top: -18px;
-    left: 50px;
-    z-index: 20;
+  
     filter: drop-shadow(0 0 0.75rem black);
 }
 
+
+
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+h1{
+    position: relative;
+    top: -406px;
+    z-index: 20;
+}
