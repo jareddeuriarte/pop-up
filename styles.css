@@ -1,15 +1,22 @@
-html{
+body{
     height: 100vh;
 }
 
 
-header{
+.hero{
     background-color: #FF871F;
-    max-height: 30%;
-    display:flex;
+    max-height: 49%;
+    display: flex;
     justify-content: center;
+
 }
 
 .logo{
-    max-width: 33rem;
+    height: 27rem;
+    position: relative;
+    top: -18px;
+    left: 50px;
+    z-index: 20;
+    filter: drop-shadow(0 0 0.75rem black);
 }
+
