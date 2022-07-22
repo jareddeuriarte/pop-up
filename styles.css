@@ -1,0 +1,15 @@
+html{
+    height: 100vh;
+}
+
+
+header{
+    background-color: #FF871F;
+    max-height: 30%;
+    display:flex;
+    justify-content: center;
+}
+
+.logo{
+    max-width: 33rem;
+}
