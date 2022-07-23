@@ -1,16 +1,24 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=DM+Sans:ital,wght@0,700;1,400&family=Luckiest+Guy&family=Source+Serif+Pro:wght@200;300&display=swap');
+
+
+body {
     height: 100vh;
     background-color: #FCE3C4;
 }
 
+.hero-container {
+    max-height: 29rem;
 
-.hero{
+}
+
+
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.header{
+.header {
     background-color: #FF871F;
     height: 17rem;
     width: 100%;
@@ -19,30 +27,89 @@ body{
 
 
 
-.logo-container{
+.logo-container {
     position: relative;
-    top: -290px;
+    top: -305px;
     z-index: 20;
 
 }
 
-.logo{
+.logo {
     height: 27rem;
-  
+
     filter: drop-shadow(0 0 0.75rem black);
 }
 
 
 
-.main{
-    display: flex;
-    justify-content: center;
 
+
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 5.5rem;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    text-shadow: 3px 3px 2px black;
+    position: relative;
+    top: -478px;
+    z-index: 20;
 }
 
 
-h1{
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    max-width: 40rem;
+}
+
+
+
+
+
+/* MARQUEE */
+
+.marquee {
+    height: 25px;
+    width: 420px;
+
+    overflow: hidden;
     position: relative;
-    top: -406px;
-    z-index: 20;
+}
+
+.marquee div {
+    display: block;
+    width: 200%;
+    height: 30px;
+
+    position: absolute;
+    overflow: hidden;
+
+    animation: marquee 5s linear infinite;
+}
+
+.marquee span {
+    width: 50%;
+}
+
+@keyframes marquee {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+span {
+    font-family: 'Arvo', serif;
+
+
 }
