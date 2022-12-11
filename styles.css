@@ -1,10 +1,14 @@
 /* GOOGLE FONT IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=DM+Sans:ital,wght@0,700;1,400&family=Luckiest+Guy&family=Source+Serif+Pro:wght@200;300&display=swap');
 
+
+
 body {
     height: 100vh;
-    background-color: #FCE3C4;
-}
+
+    background:
+      url(assets/logo150.png) repeat;
+  }
 
 /* HERO */
 .hero-container {
@@ -89,7 +93,7 @@ justify-content: center;
 
 
 /* MARQUEE */
-.marquee {
+/* .marquee {
     width: 45%;
     white-space: nowrap;
     overflow: hidden;
@@ -107,4 +111,6 @@ justify-content: center;
     100% {
       transform: translate(-100%, 0);
     }
-  }
+  } */
+
+
