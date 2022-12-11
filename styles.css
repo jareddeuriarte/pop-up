@@ -10,46 +10,28 @@ body {
       url(assets/logo150.png) repeat;
   }
 
-/* HERO */
-.hero-container {
-    max-height: 29rem;
 
-}
 
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-.header {
-    background-color: #FF871F;
-    height: 17rem;
-    width: 100%;
-}
-
-.logo-container {
-    position: relative;
-    top: -305px;
-    z-index: 20;
-
-}
-
-.logo {
-    height: 27rem;
-    filter: drop-shadow(0 0 0.75rem black);
-}
 
 h1 {
     font-family: 'Luckiest Guy', cursive;
-    font-size: 5.5rem;
+    font-size: 3rem;
+    text-align: center;
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: red;
     text-shadow: 3px 3px 2px black;
-    position: relative;
-    top: -478px;
-    z-index: 20;
+ 
+}
+
+
+/* CENTERING */
+
+.centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* MAIN */
@@ -57,18 +39,9 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.marquee-wrapper{
-    display: flex;
-justify-content: center;
-
-}
-
-.about {
-    max-width: 40rem;
-    font-family: 'Arvo', serif;
-
+    background-color: rgba(254, 251, 234, 0.82);
+    max-width: 70%;
+    max-height: 60%;
 }
 
 
@@ -78,39 +51,16 @@ justify-content: center;
 
 
 
-.about a{
-    color: inherit; /* blue colors for links too */
-    text-decoration: underline; 
-}
-
-
-.about div{
-    display: flex;
-    justify-content: space-around;
-}
 
 
 
 
-/* MARQUEE */
-/* .marquee {
-    width: 45%;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  
-  .marquee div {
-    font-size: 2rem;
-    font-family: 'Arvo', serif;
-    padding-left: 100%;
-    display: inline-block;
-    animation: animate 12s linear infinite;
-  }
-  
-  @keyframes animate {
-    100% {
-      transform: translate(-100%, 0);
-    }
-  } */
+
+
+
+
+
+
+
 
 
