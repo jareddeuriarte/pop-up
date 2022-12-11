@@ -49,7 +49,10 @@ h1 {
 .about{
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em ;
 }
 
 .about p{
@@ -70,10 +73,18 @@ h1 {
     padding: .5em;
 }
 
+.links a:hover {
+    color: inherit; /* blue colors for links too */
+    text-decoration: underline;
+    padding: .5em;
+}
 
 
-/* SMALLEST iPHONE PORTRAIT */
-@media only screen and (max-width: 375px) {
+
+
+
+/*  iPHONE PORTRAIT */
+@media only screen and (max-width: 414px) {
     .main h1 {
         font-size: 235%;
         margin:0;
