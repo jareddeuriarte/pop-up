@@ -5,10 +5,10 @@
 
 body {
     height: 100vh;
-
     background:
       url(assets/logo150.png) repeat;
-  }
+      background-position: center;
+    }
 
 
 
@@ -32,6 +32,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 /* MAIN */
@@ -39,15 +40,45 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(254, 251, 234, 0.82);
+    background-color:rgba(174, 216, 230, 0.9);
     max-width: 70%;
-    max-height: 60%;
+    border-radius: 50% 20% / 10% 40%;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.about p{
+    margin-left: .5em;
+    margin-right: .5em;
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    padding: .5em;
 }
 
 
 
-
-
+/* SMALLEST iPHONE PORTRAIT */
+@media only screen and (max-width: 375px) {
+    .main h1 {
+        font-size: 235%;
+        margin:0;
+    }
+  }
 
 
 
