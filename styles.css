@@ -18,10 +18,10 @@ h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 3rem;
     text-align: center;
-    color: white;
+    /* color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: red;
-    text-shadow: 3px 3px 2px black;
+    text-shadow: 3px 3px 2px black; */
  
 }
 
@@ -81,6 +81,17 @@ h1 {
 
 
 
+.menus{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.menus img{
+    max-width:22em;
+    padding: .5em;
+}
 
 
 /*  iPHONE PORTRAIT */
