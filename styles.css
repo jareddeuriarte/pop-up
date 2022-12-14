@@ -22,7 +22,7 @@ h1 {
     margin: 0;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: red;
-    text-shadow: 3px 3px 2px black;
+    /* text-shadow: 3px 3px 2px black; */
  
 }
 
