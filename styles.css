@@ -149,7 +149,10 @@ h1 {
 }
 
 
-
+.menu-card h2 {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: .5rem;
+}
 
 .menu-card h3 {
     font-family: 'Comfortaa', cursive;
@@ -176,6 +179,15 @@ h1 {
 @media only screen and (max-width: 414px) {
     .main h1 {
         font-size: 245%;
+    }
+}
+
+
+/* iPAD MINI */
+
+@media only screen and (max-width: 768px) {
+    .main h1 {
+        font-size: 343%;
     }
 }
 
