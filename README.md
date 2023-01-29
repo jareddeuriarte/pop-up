@@ -19,3 +19,6 @@ https://getcssscan.com/css-box-shadow-examples
 https://css-tricks.com/almanac/properties/t/text-shadow/
 
 https://css-tricks.com/making-css-animations-feel-natural/
+
+
+https://fontawesome.com/
