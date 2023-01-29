@@ -1,14 +1,16 @@
 /* GOOGLE FONT IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=DM+Sans:ital,wght@0,700;1,400&family=Luckiest+Guy&family=Source+Serif+Pro:wght@200;300&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Source+Sans+Pro:ital,wght@0,300;1,200&display=swap');
 
 body {
     height: 100vh;
     background:
-      url(assets/logo150.png) repeat;
-      background-position: center;
-    }
+        url(assets/logo150-faded.png) repeat;
+    background-position: center;
+
+}
 
 
 
@@ -23,13 +25,13 @@ h1 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: red;
     /* text-shadow: 3px 3px 2px black; */
- 
+
 }
 
 
 /* CENTERING */
 
-.centering{
+.centering {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,35 +47,38 @@ h1 {
 }
 
 
-.about{
+.about {
     display: flex;
     flex-direction: column;
-    padding:1em;
-    background-color:rgba(174, 216, 230, 0.9);
+    padding: 1em;
+    background-color: rgba(174, 216, 230, 0.9);
     border-radius: 30px;
-    margin-top:.5em;
+    margin-top: .5em;
 }
 
-.about p{
+.about p {
     margin-left: .5em;
     margin-right: .5em;
 
 }
 
-.links{
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .links a {
-    color: inherit; /* blue colors for links too */
-    text-decoration: inherit; /* no underline */
+    color: inherit;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
     padding: .5em;
 }
 
 .links a:hover {
-    color: inherit; /* blue colors for links too */
+    color: inherit;
+    /* blue colors for links too */
     text-decoration: underline;
     padding: .5em;
 }
@@ -81,27 +86,89 @@ h1 {
 
 
 
-.past{
+.past {
     margin-top: 1em;
     padding: 0.5em;
-    background-color:rgba(174, 216, 230, 0.9);
+    background-color: rgba(174, 216, 230, 0.9);
     border-radius: 30px;
 
 }
 
 
 
-.menus{
+.menus {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
 
 
-.menus img{
-    max-width:22em;
-    padding: .5em;
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+    border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    border: 0px solid #000000;
+    /* inner shadow */
+
+/*     
+    box-shadow: 5px 5px 21px rgba(0, 0, 0, 0.3) inset;
+    -webkit-box-shadow: 5px 5px 21px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow: 5px 5px 21px rgba(0, 0, 0, 0.3) inset; */
+
+
+    box-shadow: rgba(0, 0, 0, 43%) 0px 2px 4px 0px inset;
+
+
+
+
+
+
+
+
+text-align: center;
+
+
+
+
+
+
 }
+
+.menu-card p {
+    margin: 0;
+
+}
+
+
+
+
+.menu-card h3 {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: .5rem;
+}
+
+.menu-card p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.italic {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+
+
+
+}
+
+
+
 
 
 /*  iPHONE PORTRAIT */
@@ -110,20 +177,4 @@ h1 {
         font-size: 235%;
         /* margin:0; */
     }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
