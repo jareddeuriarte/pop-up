@@ -20,11 +20,12 @@ h1 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 3rem;
     text-align: center;
-    color: white;
     margin: 0;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: red;
-    /* text-shadow: 3px 3px 2px black; */
+
+
+    color: #bc2e1e;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+
 
 }
 
@@ -44,6 +45,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     max-width: 70%;
+    margin: auto;
 }
 
 
@@ -51,14 +53,23 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 1em;
-    background-color: rgba(174, 216, 230, 0.9);
+    background-color: rgba(255, 255, 255, 0.93);
     border-radius: 30px;
     margin-top: .5em;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .about p {
-    margin-left: .5em;
-    margin-right: .5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 94%;
+
+
 
 }
 
@@ -66,7 +77,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
 }
+
+
 
 .links a {
     color: inherit;
@@ -74,6 +90,7 @@ h1 {
     text-decoration: inherit;
     /* no underline */
     padding: .5em;
+
 }
 
 .links a:hover {
@@ -89,8 +106,11 @@ h1 {
 .past {
     margin-top: 1em;
     padding: 0.5em;
-    background-color: rgba(174, 216, 230, 0.9);
-    border-radius: 30px;
+
+
+    color: #bc2e1e;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+
 
 }
 
@@ -111,29 +131,13 @@ h1 {
     padding: 1rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-
+    text-align: center;
     border-radius: 11px 11px 11px 11px;
     -moz-border-radius: 11px 11px 11px 11px;
     -webkit-border-radius: 11px 11px 11px 11px;
     border: 0px solid #000000;
     /* inner shadow */
-
-/*     
-    box-shadow: 5px 5px 21px rgba(0, 0, 0, 0.3) inset;
-    -webkit-box-shadow: 5px 5px 21px rgba(0, 0, 0, 0.3) inset;
-    -moz-box-shadow: 5px 5px 21px rgba(0, 0, 0, 0.3) inset; */
-
-
     box-shadow: rgba(0, 0, 0, 43%) 0px 2px 4px 0px inset;
-
-
-
-
-
-
-
-
-text-align: center;
 
 
 
@@ -176,5 +180,28 @@ text-align: center;
     .main h1 {
         font-size: 235%;
         /* margin:0; */
+    }
+}
+
+
+
+@media only screen and (min-width: 1166px) {
+    .about {
+
+
+
+        display: flex;
+        flex-direction: column;
+        padding: 1em;
+        background-color: rgba(255, 255, 255, 0.93);
+        border-radius: 30px;
+        margin-top: .5em;
+
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+
+
+
+        max-width: 62%;
     }
 }
