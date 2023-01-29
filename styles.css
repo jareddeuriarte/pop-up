@@ -124,6 +124,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 75%;
     background-color: beige;
     padding: 1rem;
     margin-bottom: 2rem;
@@ -171,6 +172,10 @@ h1 {
 
 }
 
+.menu-card h2{
+    text-decoration: underline;
+}
+
 
 
 
@@ -180,6 +185,34 @@ h1 {
     .main h1 {
         font-size: 245%;
     }
+
+    .about p {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        text-align: justify;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 85%;
+
+    .links a {
+        color: inherit;
+        text-decoration: inherit;
+        padding: 0.5em;
+        font-size: 97%;
+
+
+    .menu-card h2{
+        font-size: 112%;
+    }
+
+    .menu-card h3{
+        font-size: 95%;
+    }
+
+    .menu-card p{
+        font-size: 80%;
+    }
 }
 
 
@@ -187,8 +220,9 @@ h1 {
 
 @media only screen and (max-width: 768px) {
     .main h1 {
-        font-size: 343%;
+        font-size: 250%;
     }
+
 }
 
 
