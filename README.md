@@ -1,5 +1,9 @@
 # pop-up
 
+Mockup site for pop-up concept. 
+
+# Sources used:
+
 
 https://www.youtube.com/watch?v=hOkPZOEIAh4
 
@@ -22,3 +26,5 @@ https://css-tricks.com/making-css-animations-feel-natural/
 
 
 https://fontawesome.com/
+
+https://css-tricks.com/emoji-as-a-favicon/
